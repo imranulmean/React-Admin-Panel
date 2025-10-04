@@ -16,7 +16,7 @@
 	t("#side-menu").metisMenu(), t("#vertical-menu-btn").on("click", function(e) {
 			e.preventDefault(), t("body").toggleClass("sidebar-enable"), 992 <= t(window).width() ? t("body").toggleClass("vertical-collpsed") : t("body").removeClass("vertical-collpsed")
 		}), t("#sidebar-menu a").each(function() {
-			var e = window.location.href.split(/[?#]/)[0];
+			var e = window.location.href.split(/[?#]/)[0];			
 			this.href == e && (t(this).addClass("active"), t(this).parent().addClass("mm-active"), t(this).parent().parent().addClass("mm-show"), t(this).parent().parent().prev().addClass("mm-active"), t(this).parent().parent().parent().addClass("mm-active"), t(this).parent().parent().parent().parent().addClass("mm-show"), t(this).parent().parent().parent().parent().parent().addClass("mm-active"))
 		}), t(document).ready(function() {
 			var e;

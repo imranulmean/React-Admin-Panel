@@ -12,10 +12,10 @@ export default defineConfig({
   //   },
   // },
 
-  server: {
-    host: '172.23.1.28',
-    port: 5173,
-  },
+  // server: {
+  //   host: '172.23.1.28',
+  //   port: 5173,
+  // },
 
   // server: {
   //   proxy: {

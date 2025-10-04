@@ -34,10 +34,10 @@ export default function SideabarComp(){
                     </li>                    
 
                     <li>
-                        <a href="widgets.html" class="waves-effect">
+                        <Link to="/widgets" class="waves-effect">
                             <i class="mdi mdi-cube-outline"></i>
                             <span> Widgets </span>
-                        </a>
+                        </Link>
                     </li>
 
                     <li>
@@ -46,8 +46,8 @@ export default function SideabarComp(){
                             <span> Email </span>
                         </a>
                         <ul class="sub-menu" aria-expanded="false">
-                            <li><a href="email-inbox.html">Inbox</a></li>
-                            <li><a href="email-read.html">Email Read</a></li>
+                            <li><Link to="/email-inbox">Inbox</Link></li>
+                            <li><Link to="/email-read">Email Read</Link></li>
                             <li><a href="email-compose.html">Email Compose</a></li>
                         </ul>
                     </li>
@@ -147,7 +147,7 @@ export default function SideabarComp(){
                         </a>
                         <ul class="sub-menu" aria-expanded="false">
                             <li><a href="tables-basic.html">Basic Tables</a></li>
-                            <li><a href="tables-datatable.html">Data Table</a></li>
+                            <li><Link to="/datatable">Data Table</Link></li>
                             <li><a href="tables-responsive.html">Responsive Table</a></li>
                             <li><a href="tables-editable.html">Editable Table</a></li>
                         </ul>
@@ -216,14 +216,14 @@ export default function SideabarComp(){
                             <span>Authentication</span>
                         </a>
                         <ul class="sub-menu" aria-expanded="false">
-                            <li><a href="pages-login.html">Login</a></li>
-                            <li><a href="pages-register.html">Register</a></li>
-                            <li><a href="pages-recoverpw.html">Recover Password</a></li>
-                            <li><a href="pages-lock-screen.html">Lock Screen</a></li>
-                            <li><a href="pages-login-2.html">Login 2</a></li>
-                            <li><a href="pages-register-2.html">Register 2</a></li>
-                            <li><a href="pages-recoverpw-2.html">Recover Password 2</a></li>
-                            <li><a href="pages-lock-screen-2.html">Lock Screen 2</a></li>
+                            <li><Link to="/login">Login</Link></li>
+                            <li><Link to="/register">Register</Link></li>
+                            <li><Link to="/recover-password">Recover Password</Link></li>
+                            <li><Link to="/lock-screen">Lock Screen</Link></li>
+                            <li><Link to="/login2">Login 2</Link></li>
+                            <li><Link to="/register2">Register 2</Link></li>
+                            <li><Link to="/recover-password2">Recover Password 2</Link></li>
+                            <li><Link to="/lock-screen2">Lock Screen 2</Link></li>
                         </ul>
                     </li>
 
